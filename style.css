@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    bac
+}
+
+header {
+    margin-bottom: 180px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px 0px 40px;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 40px;
+    text-align: left;
+}
+
+ul .login-btn {
+    -ms-flex-align: end;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+}
+
+.cards {
+    text-align: center;
+}
+
+.first-Card,
+.second-card {
+    width: 40%;
+    margin: auto;
+}
+
+.cards h1,
+.cards h2 {
+    text-align: left;
+}
+
+.price-items li{
+    margin-left: 0px;
+}
+
+.price-items li {
+    display: block;
+}
+
+.price-items li ::before {}
+
+footer {
+    text-align: center;
+}

@@ -1,33 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bonsai - Pricing</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Product</a></li>
-        <li><a href="#">Templates</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Reviews</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main>
-    <section>
-      <h2>Pricing and Plans</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bonsai - Pricing</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="" alt="Bonsai">
+            <ul>
+                <li class="has-dropdown"><a href="#">Product</a>
+                    <!-- <ul class="dropdown-menu">
+                        <li>CRM</li>
+                        <li>Scheduling</li>
+                    </ul> -->
+
+                </li>
+                <li><a href="#">Templates</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Reviews</a></li>
+            </ul>
+            <div class="login-btn">
+            <button type="button">LOG IN</button>
+            <button type="button">START FREE</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="pricing">
+            <h2>Pricing & Plans</h2>
+            <div class="toggle-switch">
+                <input type="checkbox" id="toggle" name="toggle">
+                <label for="toggle" class="toggle-switch-slider">Monthly</label>
+                <label for="toggle" class="toggle-switch-slider">Yearly</label>
+            </div>
+        </section>
+        <section class="cards">
+        <section class=" first-Card">
+            <div>
+                <h1>Workflow</h1>
+
+                <h2><span>$</span>19<span>MONTH</span></h2>
+            </div>
+            <span></span>
+            <ul class="price-items">
+                <li>Unlimited clients $ Projects</li>
+                <li>Proposal</li>
+                <li>Contacts</li>
+                <li>Invocing & Payments</li>
+                <li>Clients CRM</li>
+                <li>Project Managment</li>
+                <li>Task & Time Tracking</li>
+                <li>iOS, Andriod, Chrome, & Mac Apps</li>
+            </ul>
+            <button type="button">start free</button>
+
+        </section>
+        <section class="second-card">
+            <div>
+                <h1>Workflow Plus</h1>
+
+                <h2><span>$</span>292<span>MONTH</span></h2>
+            </div>
+            <span></span>
+            <ul class="price-items">
+                <li>Unlimited clients $ Projects</li>
+                <li>Proposal</li>
+                <li>Contacts</li>
+                <li>Invocing & Payments</li>
+                <li>Clients CRM</li>
+                <li>Project Managment</li>
+                <li>Task & Time Tracking</li>
+                <li>iOS, Andriod, Chrome, & Mac Apps</li>
+            </ul>
+            <button type="button">start free</button>
+
+        </section>
     </section>
 
-    <section>
-      
-  </main>
 
-  <footer>
-    <p>&copy; 2023 Bonsai. All rights reserved.</p>
-  </footer>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Bonsai. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>

@@ -30,6 +30,27 @@ ul .login-btn {
     -ms-flex-align: end;
 }
 
+.login-btn button {
+    
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    padding: 10px 10px 10px 10px ;
+    border-radius: 5px;
+    margin-left: 4px;
+}
+.button2{
+    color: #fff;
+    border-style: none;
+    background-color: #00b289;
+}
+.button1{
+    background-color: white;
+    border-color: #00b289;
+    color: #00b289;
+}
+
+
 .pricing {
     display: flex;
     justify-content: space-around;
@@ -75,7 +96,7 @@ section {
 
 }
 
-.cards {
+.cards1 {
     font-family: serif;
     width: 50%;
     margin: auto;
@@ -141,17 +162,17 @@ span {
     padding-left: 3%;
 }
 
-button {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5%;
-    padding-right: 5%;
+.b button {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 25px;
+    padding-right: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #00b289;
     color: #fff;
     border-style: none;
     border-radius: 5px;
-    margin-left: 400PX;
+    margin-left: 250PX;
 
 }
 
